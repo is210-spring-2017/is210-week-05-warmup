@@ -135,49 +135,6 @@ Examples
     >>> task_03.JELLY == task_03.BUTTER
     True
 
-Executing Tests
-===============
-
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
-
 Submission
 ==========
 
